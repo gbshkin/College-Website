@@ -13,9 +13,6 @@ import {VideoPlayer} from "./Components/VideoPlayer/VideoPlayer.jsx";
 export const App = () => {
 
     const [playState, setPlayState] = React.useState(false)
-    const toggleVideo = () => {
-        playState ? setPlayState(false) : setPlayState(true)
-    }
 
     return (
         <div>
